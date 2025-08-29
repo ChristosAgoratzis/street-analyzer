@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping({"/api/storedPictures", "/api/storedPictures/"})
-@CrossOrigin(origins = "*") // React with Java spring boot connection
+@CrossOrigin(origins = "192.168.1.193:3000/") // React with Java spring boot connection
 public class pictureController {
 
     @Autowired
